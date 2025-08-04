@@ -1,0 +1,9 @@
+.divs{
+    height: 100px;
+    width:100px;
+    border:3px solid firebrick;
+    background-color: rosybrown;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}

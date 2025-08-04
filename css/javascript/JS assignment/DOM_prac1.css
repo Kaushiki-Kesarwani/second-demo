@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.box{
+height: 100px;
+width: 100px;
+border:2px solid black;
+background-color: rgb(159, 118, 132);
+margin-bottom: 4px;
+text-align: center;
+padding-top: 3px;
+margin-left: 600px;
+
+}

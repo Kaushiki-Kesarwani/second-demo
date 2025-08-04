@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form controls</title>
+    <link rel="stylesheet" href="./Plugin/bootstrap-5.3/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./01_form_controls.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row g-3 align-item-center">
+            <div class="col-12">
+                <h5 class="display-5 text-center py-5 text-secondary">Forms</h5>
+            </div>
+            <div class="col-12">
+                <form >
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" id="email" class="form-control" placeholder="Email@gmail.com"/> 
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleemail1" class="form-label">Example Textarea</label>
+                        <textarea id="exampleemail1" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" class="form-control form-control-lg mb-2" placeholder=".form-control-lg"aria-label=".form-control-lg example">
+                        <input type="text" class="form-control form-control mb-2" placeholder="Default"aria-label=".Default example">
+                        <input type="text" class="form-control form-control-sm mb-2" placeholder=".form-control-sm"aria-label=".form-control-sm example">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" class="form-control" placeholder="Enter password " aria-label="enterpassword">
+                        <div id="enterpassword"class="form-text">
+                            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                        </div>
+                    </div>
+
+                    <div class="col-auto">
+                        <label for="password" class="col-form-label">Password</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="password" id="password" class="form-control" placeholder="Password" aria-labelledby="passwordHelp">
+                    </div>
+                    <div class="col-auto">
+                        <span id="passwordHelp" class="form-text">Enter at least 6 characters</span>
+                    </div>
+
+                    <div class="my-3"> <input type="text" class="form-control" placeholder="Disabled form" disabled aria-label="Disabled text"/></div>
+                   
+                    <input type="text" class="form-control mb-3" value="Readonly text ..." aria-label="Readonly text" readonly />
+                    <input type="text" class="form-control" value="Disabled Readonly text ..." aria-label="Disabled Readonly text" disabled readonly />
+
+                    <div class="row my-3" >
+                        <label for="Email1" class="col-sm-2 col-form-label" >Email</label>
+                        <div class="col-sm-10 mb-3">
+                            <input type="text" id="Email1" class=" form-control-plaintext" readonly value="email@example.com">
+                          </div>
+                    </div>
+
+                    <div class="fileform p-5">
+                   <div class="mb-3">
+                    <label for="formfile" class="form-label">Default file input example</label>
+                    <input type="file" class="form-control" id="formfile"/>
+                   </div> 
+
+                   <div class="mb-3">
+                    <label for="formmultifile" class="form-label">Multiple file input example</label>
+                    <input type="file" class="form-control" id="formmultifile" multiple/>
+                   </div>
+
+                   <div class="mb-3">
+                    <label for="formDisabledfile" class="form-label">Disabled file input example</label>
+                    <input type="file" class="form-control" id="formDisabledfile" disabled/>
+                   </div>
+
+                   <div class="mb-3">
+                    <label for="formsmallfile" class="form-label">Small file input example</label>
+                    <input type="file" class="form-control form-control-sm" id="formsmallfile"/>
+                   </div>
+
+                   <div class="mb-3">
+                    <label for="formsmallfile" class="form-label">large file input example</label>
+                    <input type="file" class="form-control form-control-lg" id="formsmallfile"/>
+                   </div>
+                </div>
+
+                <div class="mt-3">
+                    <label for="colorfile" color="form-label">pick your fav. color</label>
+                    <input type="color" color="form-control-color" value="563d7c" title="choose your color" id="colorfile"/>
+                </div>
+
+                <div class="my-5">
+                    <label for="Datalistexample" class="form-label">list datalist</label>
+                    <input class="form-control" list="exampledata" id="Datalistexample" placeholder="Type to search">
+                    <datalist id="exampledata">
+                        <option value="San francisco"></option>
+                            <option value="Hello"></option>
+                                <option value="Introduction"></option>
+                                    <option value="Placeholder"></option>
+                    </datalist>
+                </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <a href="./index.html">Home</a>
+</body>
+</html>

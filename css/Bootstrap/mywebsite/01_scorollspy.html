@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollspy</title>
+    <link rel="stylesheet" href="./Plugin/bootstrap-5.3/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./01_scrollspy.css"/>
+</head>
+<body>
+    <div class="container">
+    <nav id="navbar-ex-2" class="navbar bg-body-tertiary px-3 mb-3 navbar-expand-lg">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <ul class="nav nav-pills navbar-nav-scroll">
+            <li class="nav-item">
+                <a href="#scrollspyheading1" class="nav-link">First</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#scrollspyheading2" class="nav-link">second</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" role="button">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#scrollspyheading3" class="dropdown-item">Third</a></li>
+                       <li><a href="#scrollspyheading4" class="dropdown-item">Fourth</a></li>
+                       <div class="dropdown-divider"></div>
+                       <li><a href="#scrollspyheading5" class="dropdown-item">Fifth</a></li> 
+                </ul>
+            </li>
+      </ul>
+    </nav>
+    
+    <div data-bs-spy="scroll" data-bs-target="#navbar-ex-2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="Scrollspy-example bg-body-tertiary p-3 rounded-2 scrolling" tabindex="0" >
+        <h4 id="scrollspyheading1">First Heading</h4>
+        <p>Data structures are essential in computer science because they help organize, manage, and store data efficiently. Choosing the right data structure (like arrays, linked lists, trees, or hash tables) can drastically improve the performance of algorithms. For example, searching for an item in a sorted array with binary search is faster (O(log n)) compared to a linear search in an unsorted list Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse officia a blanditiis deleniti ea consequatur sed! Saepe accusamus debitis sapiente pariatur voluptate, maxime, hic rerum laudantium placeat repellat corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, aut aliquid cum excepturi voluptate provident rem autem ipsa perspiciatis necessitatibus corporis molestias perferendis? Soluta ipsam et aspernatur libero dignissimos molestias. </p>
+
+        <h4 id="scrollspyheading2">Second Heading</h4>
+        <p>The Internet is a global network that connects millions of private, public, academic, business, and government networks. Data travels across the Internet improve the performance of algorithms. For example, searching for an item in a sorted array with binary search is faster (O(log n)) compared to a linear search in an unsorted list Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse officia a blanditiis deleniti ea consequatur sed! Saepe accusamus debitis sapiente pariatur voluptate, maxime, hic rerum laudantium placeat repellat corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. through a system of interconnected routers and switches. Every time you visit a website, your computer sends a request to a DNS server to find the servers IP address, then connects to that server to download web pages and other data.</p>
+
+        <h4 id="scrollspyheading3">Third Heading</h4>
+        <p>Isaac Newton formulated three fundamental laws of motion that laid the foundation for classical mechanics. The first law (inertia) improve the performance of algorithms. For example, searching for an item in a sorted array with binary search is faster (O(log n)) compared to a linear search in an unsorted list Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse officia a blanditiis deleniti ea consequatur sed! Saepe accusamus debitis sapiente pariatur voluptate, maxime, hic rerum laudantium placeat repellat corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. states that an object at rest stays at rest unless acted upon by a force. The second law relates force, mass, and acceleration (F = ma). The third law states that every action has an equal and opposite reaction.</p>
+
+        <h4 id="scrollspyheading4">Fourth Heading</h4>
+        <p>Financial literacy is the ability to understand and use financial skills like budgeting, saving, investing, and managing debt. Being financially literate allows individuals to make informed decisions, build wealth over time, and avoid improve the performance of algorithms. For example, searching for an item in a sorted array with binary search is faster (O(log n)) compared to a linear search in an unsorted list Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse officia a blanditiis deleniti ea consequatur sed! Saepe accusamus debitis sapiente pariatur voluptate, maxime, hic rerum laudantium placeat repellat corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. improve the performance of algorithms. For example, searching for an item in a sorted array with binary search is faster (O(log n)) compared to a linear search in an unsorted list Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse officia a blanditiis deleniti ea consequatur sed! Saepe accusamus debitis sapiente pariatur voluptate, maxime, hic rerum laudantium placeat repellat corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. common pitfalls like excessive debt or poor investment choices.</p>
+
+        <h4 id="scrollspyheading5">Fifth Heading</h4>
+        <p>Climate change refers to long-term shifts in temperatures and weather patterns, mainly caused by human activities like burning fossilimprove the performance of algorithms. For example, searching for an item in a sorted array with binary search is faster (O(log n)) compared to a linear search in an unsorted list Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse officia a blanditiis deleniti ea consequatur sed! Saepe accusamus debitis improve the performance of algorithms. For example, searching for an item in a sorted ar amet consectetur adipisicing elit. Commodi esse officia a blanditiis deleniti ea consequatur sed! Saepe accusamus debitis sapiente pariatur voluptate, maxime, hic rerum laudantium placeat repellat corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. sapiente pariatur voluptate, maxime, hic rerum laudantium placeat repellat corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit.  fuels. These activities increase greenhouse gases in the atmosphere, leading to global warming. Effects include rising sea levels, more extreme weather, loss of biodiversity, and threats to food and water security.</p>
+    </div>
+</div>
+    <script src="./Plugin/bootstrap-5.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

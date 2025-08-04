@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Plugin/bootstrap-5.3/css/bootstrap.css"/>
+    <link rel="stylesheet" href="02_Reorder.css"/>
+</head>
+<body>
+    <!-- Create two columns.
+
+On desktop: First column should appear first, second appears next.
+
+On small screens (sm and below): Reverse their order using Bootstrap. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col order-lg-1 order-sm-2 blue"> text 1</div>
+            <div class="col order-lg-1 order-sm-1 red">text 2</div>
+        </div>
+    </div>
+    <a href="/mywebsite/index.html">Home</a>
+</body>
+</html>

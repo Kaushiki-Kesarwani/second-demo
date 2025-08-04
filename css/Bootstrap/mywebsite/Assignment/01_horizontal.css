@@ -1,0 +1,12 @@
+.container{
+    border: 5px solid darkgreen;
+}
+.col-2{
+    border: 3px solid rgb(56, 60, 68);
+}
+.r{
+    background-color: cadetblue;
+}
+.s{
+    background-color: chocolate;
+}

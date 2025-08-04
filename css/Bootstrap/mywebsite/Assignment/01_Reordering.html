@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reordering 01</title>
+    <link rel="stylesheet" href="../Plugin/bootstrap-5.3/css/bootstrap.css"/>
+    <link rel="stylesheet" href="01_Reordering.css">
+</head>
+<body>
+    <!-- Create a three-column layout. On mobile screens, show the columns in this order:
+
+Second column first
+
+Third column second
+
+First column last
+Use Bootstrap’s order-* classes. -->
+
+   <div class="container">
+    <div class="row">
+        <div class="col red order-sm-2 order-lg-1 order-md-3">First column</div>
+        <div class="col yellow order-sm-1 order-lg-2 order-md-2">Second column</div>
+        <div class="col pink order-sm-3 order-lg-3 order-md-1">Third column</div>
+    </div>
+   </div>
+   <a href="/mywebsite/index.html">Home</a>
+</body>
+</html>

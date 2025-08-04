@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="./Plugin/bootstrap-5.3/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./01_Dropdown class.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="dropdown">
+        <button type="button" class="btn btn-danger dropdown-toggle"data-bs-toggle="dropdown">Dropdown</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">item 1</a></li>
+            <li><a href="#" class="dropdown-item">item 2</a></li>
+            <li><a href="#" class="dropdown-item">item 3</a></li>
+            <li><a href="#" class="dropdown-item">item 4</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <a role="button" href="#" class="btn btn-info  dropdown-toggle"data-bs-toggle="dropdown" aria-expanded="false">Link Dropdown</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">item 1</a></li>
+            <li><a href="#" class="dropdown-item">item 2</a></li>
+            <li><a href="#" class="dropdown-item">item 3</a></li>
+            <li><a href="#" class="dropdown-item">item 4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-secondary">split button</button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Action</a></li>
+            <li><a href="#" class="dropdown-item">Action-2</a></li>
+            <li><a href="#" class="dropdown-item">Action-3</a></li>
+            <li><a href="#" class="dropdown-item">Action-4</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button type="button"class="btn btn-success btn-lg  dropdown-toggle"data-bs-toggle="dropdown">large button</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">action</a></li>
+            <li><a href="#" class="dropdown-item">large action</a></li>
+            <li><a href="#" class="dropdown-item">something else here</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-warning btn-lg">Split-large button</button>
+        <button type="button" class="btn btn-warning btn-lg dropdown-toggle dropdown-toggle-split"data-bs-toggle="dropdown"aria-expanded="false"><span class="visually-hidden">dropdown button</span></button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">action</a></li>
+            <li><a href="#" class="dropdown-item">action-2</a></li>
+            <li><a href="#" class="dropdown-item">action-3</a></li>
+            <li><a href="#" class="dropdown-item">action-4</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button type="button"class="btn btn-success btn-sm dropdown-toggle"data-bs-toggle="dropdown">small button</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">action</a></li>
+            <li><a href="#" class="dropdown-item">large action</a></li>
+            <li><a href="#" class="dropdown-item">something else here</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary btn-sm">Split-small button</button>
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle dropdown-toggle-split"data-bs-toggle="dropdown"aria-expanded="false"><span class="visually-hidden">dropdown button</span></button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">action</a></li>
+            <li><a href="#" class="dropdown-item">action-2</a></li>
+            <li><a href="#" class="dropdown-item">action-3</a></li>
+            <li><a href="#" class="dropdown-item">action-4</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button type="button" class="btn btn-danger dropdown-toggle"data-bs-toggle="dropdown">
+            Dark dropdown
+        </button>
+        <ul class="dropdown-menu" data-bs-theme="dark">
+            <li><a href="#" class="dropdown-item">Action</a></li>
+            <li><a href="#" class="dropdown-item">Action-2</a></li>
+            <li><a href="#" class="dropdown-item">something else</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle"data-bs-toggle="dropdown">Center dropdown</button>
+        <ul class="dropdown-menu dropdown-center">
+            <li><a href="#" class="dropdown-item">dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropstart">
+        <button type="button" class="btn btn-danger dropdown-toggle"data-bs-toggle="dropdown">left dropdown</button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropstart">
+        <button type="button"class="btn btn-dark btn-opacity-50">left split dropdown</button>
+        <button type="button" class="btn btn-dark btn-opacity-50 dropdown-toggle dropdown-toggle-split"data-bs-toggle="dropdown"><span class="visually-hidden">left dropdown</span></button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropup">
+        <button type="button" class="btn btn-primary dropdown-toggle"data-bs-toggle="dropdown">top dropdown</button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">top dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">top dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">top dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">top dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropup">
+        <button type="button"class="btn btn-primary btn-opacity-50">top split dropdown</button>
+        <button type="button" class="btn btn-primary btn-opacity-50 dropdown-toggle dropdown-toggle-split"data-bs-toggle="dropdown"><span class="visually-hidden">top dropdown</span></button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">top dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">top dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">top dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">top dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropup-center">
+        <button type="button" class="btn btn-danger dropdown-toggle"data-bs-toggle="dropdown">top center dropdown</button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">top center dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">top center dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">top center dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">top center dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropup-center">
+        <button type="button"class="btn btn-dark ">top center split dropdown</button>
+        <button type="button" class="btn btn-dark  dropdown-toggle dropdown-toggle-split"data-bs-toggle="dropdown"><span class="visually-hidden">top center dropdown</span></button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">top center dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">top center dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">top center dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">top center dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropend">
+        <button type="button" class="btn btn-danger dropdown-toggle"data-bs-toggle="dropdown">right dropdown</button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">right dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item">right dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item">right dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">right dropdown-item-4</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group dropend">
+        <button type="button"class="btn btn-success">right split dropdown</button>
+        <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split"data-bs-toggle="dropdown"><span class="visually-hidden">right dropdown</span></button>
+        <ul class="dropdown-menu ">
+            <li><a href="#" class="dropdown-item">right dropdown-item-1</a></li>
+            <li><a href="#" class="dropdown-item active " aria-current="true">active right dropdown-item-2</a></li>
+            <li><a href="#" class="dropdown-item disabled" aria-disabled="true">disabled right dropdown-item-3</a></li>
+            <li><a href="#" class="dropdown-item">right dropdown-item-4</a></li>
+        </ul>
+    </div>
+</div>
+<a href="./index.html">Home</a>
+   
+
+    <script src="./Plugin/bootstrap-5.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

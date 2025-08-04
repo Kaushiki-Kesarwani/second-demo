@@ -1,0 +1,15 @@
+.container{
+    border:4px solid lightseagreen;
+}
+.row{
+    border:4px solid #395756; 
+}
+.col-md-4 ,.col-md-3{
+    background-color: #EEE3AB;
+}
+.col-sm-3  {
+    background-color: aquamarine;
+}
+.col-sm-4 {
+    background-color: #395756;
+}

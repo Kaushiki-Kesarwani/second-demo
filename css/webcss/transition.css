@@ -1,0 +1,36 @@
+#trans{
+    height: 150px;
+    width: 150px;
+    background-color: #CD8B76;
+    border: 3px solid #230903;
+    position:relative;
+    top:10px;
+    left: 10px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 2s;
+}
+
+#trans:hover{
+    background-color: #513B56;
+    color: aliceblue;
+    font-size: 18px;
+   
+}
+
+#trans:active{
+    background-color: #9EBC9F;
+    font-size: large;
+    color: #32292F;
+}
+
+#transform{
+    height: 150px;
+    width: 150px;
+    background-color: #EF476F;
+    border: 3px solid #D17B0F;
+    position:relative;
+    top:10px;
+    left: 10px;
+}

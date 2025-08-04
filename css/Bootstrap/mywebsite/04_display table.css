@@ -1,0 +1,14 @@
+.d-table{
+    border: 5px solid black;
+}
+.cell{
+    padding: 8px;
+    border: 1px solid gray;
+}
+.box .d-table-cell{
+    font-size: larger;
+    border: 1px solid gray;
+    font-weight: 900;
+    padding: 7px;
+
+}

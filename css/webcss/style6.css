@@ -1,0 +1,38 @@
+.navbar{
+    background-color: rgb(21, 97, 212);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    list-style-type: none;
+   
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: right;
+    align-items: centre;
+}
+
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(233, 180, 7);
+}
+
+item{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+}
+
+@media (width:600px) {
+    
+}

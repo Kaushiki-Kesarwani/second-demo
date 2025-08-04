@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    height: 60px;
+    background-color:#0f1111;
+
+}
+
+#logo{
+    font-size: 25px;
+    color: #f08804;
+  
+    
+}
+#content{
+    height: 900px;
+}
+
+a{
+    color: white;
+   margin-right:200px ;
+}
+
+button{
+    background-color: #f08804;
+    color: aliceblue;
+} 
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border-width: 6px;
+    border-color: aqua;
+    border-style: groove;
+    display: inline-block;
+}
+
+footer{
+    color:aliceblue;
+    background-color: #0f1111;
+    text-align: center;
+}

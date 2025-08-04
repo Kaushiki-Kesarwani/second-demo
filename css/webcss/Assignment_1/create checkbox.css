@@ -1,0 +1,45 @@
+.checkboxes {
+  border: 4px dashed black;
+  width: 300px;
+  height: 300px;
+  background-color: #b8bac8;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 20px 0px 0px 30px;
+}
+
+.fruit-taste{
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+}
+
+.fruits {
+  border-radius: 0.25em;
+
+}
+.fruit-taste .fruits{
+  float:left;
+  margin-left: 1.5em;
+}
+
+.fruits{
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  border:var(--bs-border-width) solid var(--bs-border-color);
+}
+.check {
+  font-size: 25px;
+  color: #261132;
+}
+.fruit {
+  text-align: center;
+  color: #735751;
+}
+.checkboxes:hover {
+  background-color: #e2afde;
+  transition-duration: 3s;
+  transition-delay: 3s;
+  transition-timing-function: ease-in-out;
+}

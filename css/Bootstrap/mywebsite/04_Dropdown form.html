@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./Plugin/bootstrap-5.3/css/bootstrap.css" />
+    <link rel="stylesheet" href="./04_Dropdown form.css" />
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="dropdown">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                data-bs-auto-close="outside">Form Dropdown</button>
+
+            <form class="dropdown-menu p-4">
+                <h6 class="display-6 text-center ">Form</h6>
+                <div class="px-4 mb-3">
+                    <label for="exampleemail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleemail1" placeholder="email@gmail.com" />
+                </div>
+
+                <div class="px-4 mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="from-control" id="password"
+                        placeholder="Enter at least six characters" />
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdowncheckbox" />
+                        <label for="dropdowncheckbox" class="form-check-label">
+                            Remember me
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">sign-in</button>
+            </form>
+        </div>
+    
+
+    <div class="btn-group my-3 ">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+            data-bs-offset="5,10">offset</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">action</a></li>
+            <li><a href="#" class="dropdown-item">action-1</a></li>
+            <li><a href="#" class="dropdown-item">action-2</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group  my-3">
+        <button type="button" class="btn btn-success">Reference</button>
+        <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-reference="parent"><span class="visually-hidden">Reference dropdown</span></button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">action</a></li>
+            <li><a href="#" class="dropdown-item">action-1</a></li>
+            <li><a href="#" class="dropdown-item">action-2</a></li>
+        </ul>
+    </div>
+    </div>
+    <a href="./index.html">Home</a>
+    <script src="./Plugin/bootstrap-5.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
